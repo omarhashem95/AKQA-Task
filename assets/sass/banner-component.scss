@@ -1,13 +1,13 @@
 @import "./variables.scss";
 .banner {
-    background-image: url("../../../AKQA/assets/images/cover.png");
+    background-image: url("../../assets/images/cover.png");
     height: 478.25px;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; 
     margin-left: -2px;
 
     &__content {
-        padding-top: 5rem;
+        padding-top: 5rem; 
         p {
             font-family: "Franklin Gothic Medium";
             font-size: 18px;
