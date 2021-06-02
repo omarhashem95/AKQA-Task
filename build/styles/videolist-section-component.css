@@ -12,13 +12,18 @@
     .videolist-section_content .vid-item {
       display: flex;
       flex-wrap: wrap;
-      width: 100%; }
+      width: 100%;
+      position: relative; }
       @media screen and (min-width: 768px) {
         .videolist-section_content .vid-item {
           flex-wrap: nowrap;
           width: 48%;
           margin-right: 15px;
           margin-bottom: 40px; } }
+      .videolist-section_content .vid-item .sm-play-icon {
+        position: absolute;
+        top: 40%;
+        left: 25%; }
       .videolist-section_content .vid-item video {
         width: 100%;
         height: auto; }
