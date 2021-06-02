@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'FrankGoth';
+  src: url("../fonts/FranklinGothic/FranklinGothic.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'SansPro-Regular';
+  src: url("../fonts/SourceSansPro-Regular.ttf") format("truetype"); }
+
+.stats-widget_content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  @media screen and (min-width: 768px) {
+    .stats-widget_content {
+      padding: 5rem 0rem 5rem 0rem; } }
+  .stats-widget_content .item {
+    width: 85%;
+    text-align: center;
+    padding: 2rem 0rem 2rem 0rem; }
+    @media screen and (min-width: 768px) {
+      .stats-widget_content .item {
+        width: 24%; } }
+    .stats-widget_content .item h5 {
+      color: #00609C; }
+    .stats-widget_content .item a {
+      text-decoration: none;
+      color: #C017A2;
+      cursor: pointer;
+      font-family: 'Franklin Gothic Medium';
+      font-weight: 600; }
+      .stats-widget_content .item a:hover {
+        text-decoration: underline; }

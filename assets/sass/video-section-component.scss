@@ -1,0 +1,59 @@
+@import "./variables.scss";
+.video-section {
+    background-color: $secondary-color;
+    padding: 2rem 0.625rem;
+    @media screen and(min-width: 768px) {
+        padding: 7rem 12rem;
+    }
+
+    &_content {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        .text {
+            margin-bottom: 30px;
+            @media screen and(min-width: 768px) {
+                width: 30%;
+            }
+
+            h3 {
+                color: $primary-color;
+            }
+            a {
+                color: $white;
+                padding: 8px 35px 12px;
+                border-radius: 25px;
+                background-color: $plum-secondary;
+                text-decoration: none;
+
+                &:hover {
+                    color: $plum-secondary;
+                    background-color: $white;
+                }
+            }
+        }
+        .video {
+            position: relative;
+            @media screen and(min-width: 768px) {
+                width: 70%;
+            }
+
+            video {
+                width: 100%;
+                height: auto;
+                cursor: pointer;
+            }
+
+            img {
+                position: absolute;
+                top: 35%;
+                left: 40%;
+                width: 50px;
+
+                @media screen and (min-width: 768px) {
+                    width: auto;
+                }
+            }
+        }
+    }
+}

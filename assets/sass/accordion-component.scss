@@ -1,0 +1,24 @@
+@import "./variables.scss";
+.accordion {
+    background-color: $secondary-color;
+    padding: 2rem 0.625rem;
+    @media screen and(min-width: 768px) {
+        padding: 2rem 12rem 1rem 12rem;
+    }
+
+    .acctext {
+        display: none;
+        background-color: $white;
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+    &_button {
+        font-size: 24px;
+
+        color: $primary-color;
+        i {
+            font-size: 32px;
+        }
+    }
+}

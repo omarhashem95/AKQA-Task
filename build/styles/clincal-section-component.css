@@ -1,0 +1,10 @@
+.clinical-section {
+  padding: 2rem 0.625rem; }
+  @media screen and (min-width: 768px) {
+    .clinical-section {
+      padding: 7rem 12rem; } }
+  .clinical-section_cards {
+    display: flex;
+    flex-wrap: wrap; }
+    .clinical-section_cards .card {
+      width: 45%; }

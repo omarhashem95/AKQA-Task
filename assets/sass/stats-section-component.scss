@@ -1,0 +1,36 @@
+@import "./variables.scss";
+.stats-section {
+    &_content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        @media screen and (min-width: 768px) {
+            padding: 5rem 0rem 5rem 0rem;
+        }
+
+        .item {
+            width: 85%;
+            text-align: center;
+            padding: 2rem 0rem 2rem 0rem;
+            @media screen and(min-width:768px) {
+                width: 24%;
+            }
+
+            h5 {
+                color: $primary-color;
+            }
+
+            a {
+                text-decoration: none;
+                color: $plum-secondary;
+                cursor: pointer;
+                font-family: "Franklin Gothic Medium";
+                font-weight: 600;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

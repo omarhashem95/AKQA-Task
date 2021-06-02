@@ -1,0 +1,39 @@
+@import "./variables.scss";
+.videolist-section {
+    background-color: $grey;
+    padding: 2rem 0.625rem;
+    @media screen and(min-width: 768px) {
+        padding: 7rem 12rem;
+    }
+    h3 {
+        color: $primary-color;
+    }
+
+    &_content {
+        display: flex;
+        flex-wrap: wrap;
+        .vid-item {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+
+            @media screen and(min-width:768px) {
+                flex-wrap: nowrap;
+                width: 48%;
+                margin-right: 15px;
+                margin-bottom: 40px;
+            }
+            video {
+                width: 100%;
+                height: auto;
+            }
+            section {
+                margin-left: 10px;
+                .title {
+                    color: $primary-color;
+                    font-family: "Franklin Gothic regular";
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+.videolist-section {
+  background-color: #EEEEEE;
+  padding: 2rem 0.625rem; }
+  @media screen and (min-width: 768px) {
+    .videolist-section {
+      padding: 7rem 12rem; } }
+  .videolist-section h3 {
+    color: #00609C; }
+  .videolist-section_content {
+    display: flex;
+    flex-wrap: wrap; }
+    .videolist-section_content .vid-item {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%; }
+      @media screen and (min-width: 768px) {
+        .videolist-section_content .vid-item {
+          flex-wrap: nowrap;
+          width: 48%;
+          margin-right: 15px;
+          margin-bottom: 40px; } }
+      .videolist-section_content .vid-item video {
+        width: 100%;
+        height: auto; }
+      .videolist-section_content .vid-item section {
+        margin-left: 10px; }
+        .videolist-section_content .vid-item section .title {
+          color: #00609C;
+          font-family: "Franklin Gothic regular"; }

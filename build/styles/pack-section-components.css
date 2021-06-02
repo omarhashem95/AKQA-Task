@@ -1,0 +1,24 @@
+.pack-section {
+  background-color: #E6E7E8;
+  padding: 20px; }
+  @media screen and (min-width: 768px) {
+    .pack-section {
+      padding: 1rem 5rem 1rem 10rem; } }
+  .pack-section_img img {
+    max-width: 100%; }
+  .pack-section_text {
+    align-self: center; }
+    @media screen and (min-width: 768px) {
+      .pack-section_text {
+        margin-left: 70px; } }
+    .pack-section_text p {
+      font-family: 'Franklin Gothic Medium';
+      font-size: 16px;
+      color: #00609C;
+      letter-spacing: 0.5px; }
+      @media screen and (min-width: 768px) {
+        .pack-section_text p {
+          font-size: 28px; } }
+    .pack-section_text small {
+      color: #000000;
+      font-weight: 400; }

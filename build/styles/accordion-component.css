@@ -1,0 +1,16 @@
+.accordion {
+  background-color: #E6E7E8;
+  padding: 2rem 0.625rem; }
+  @media screen and (min-width: 768px) {
+    .accordion {
+      padding: 2rem 12rem 1rem 12rem; } }
+  .accordion .acctext {
+    display: none;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 10px; }
+  .accordion_button {
+    font-size: 24px;
+    color: #00609C; }
+    .accordion_button i {
+      font-size: 32px; }

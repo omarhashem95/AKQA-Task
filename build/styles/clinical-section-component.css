@@ -1,0 +1,33 @@
+.clinical-section {
+  padding: 2rem 0.625rem; }
+  @media screen and (min-width: 768px) {
+    .clinical-section {
+      padding: 7rem 12rem; } }
+  .clinical-section .title {
+    color: #00609C;
+    margin-left: 15px;
+    font-size: 28px;
+    font-family: "Franklin Gothic Medium"; }
+  .clinical-section_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+    .clinical-section_cards .card {
+      width: 100%;
+      background-color: #E6E7E8;
+      margin-bottom: 30px;
+      border: none; }
+      @media screen and (min-width: 768px) {
+        .clinical-section_cards .card {
+          width: 47%; } }
+      .clinical-section_cards .card h3 {
+        color: #00609C; }
+      .clinical-section_cards .card_content {
+        padding: 40px; }
+        .clinical-section_cards .card_content a {
+          font-weight: 700;
+          color: #C017A2;
+          text-decoration: none;
+          cursor: pointer; }
+          .clinical-section_cards .card_content a:hover {
+            text-decoration: underline; }

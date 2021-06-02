@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'FrankGoth';
+  src: url("../fonts/FranklinGothic/FranklinGothic.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'SansPro-Regular';
+  src: url("../fonts/SourceSansPro-Regular.ttf") format("truetype"); }
+
+.pack-widget {
+  background-color: #E6E7E8;
+  padding: 20px; }
+  @media screen and (min-width: 768px) {
+    .pack-widget {
+      padding: 1rem 5rem 1rem 10rem; } }
+  .pack-widget_img img {
+    max-width: 100%; }
+  .pack-widget_text {
+    align-self: center; }
+    @media screen and (min-width: 768px) {
+      .pack-widget_text {
+        margin-left: 70px; } }
+    .pack-widget_text p {
+      font-family: 'Franklin Gothic Medium';
+      font-size: 16px;
+      color: #00609C;
+      letter-spacing: 0.5px; }
+      @media screen and (min-width: 768px) {
+        .pack-widget_text p {
+          font-size: 28px; } }
+    .pack-widget_text small {
+      color: #000000;
+      font-weight: 400; }

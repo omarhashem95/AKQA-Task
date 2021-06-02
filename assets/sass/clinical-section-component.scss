@@ -1,0 +1,45 @@
+@import "./variables.scss";
+.clinical-section {
+    padding: 2rem 0.625rem;
+    @media screen and(min-width: 768px) {
+        padding: 7rem 12rem;
+    }
+    .title {
+        color: $primary-color;
+        margin-left: 15px;
+        font-size: 28px;
+        font-family: "Franklin Gothic Medium";
+    }
+    &_cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        .card {
+            width: 100%;
+            background-color: $secondary-color;
+            margin-bottom: 30px;
+            @media screen and(min-width: 768px) {
+                width: 47%;
+            }
+            border: none;
+
+            h3 {
+                color: $primary-color;
+            }
+
+            &_content {
+                padding: 40px;
+
+                a {
+                    font-weight: 700;
+                    color: $plum-secondary;
+                    text-decoration: none;
+                    cursor: pointer;
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}
